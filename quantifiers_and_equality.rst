@@ -128,7 +128,7 @@ Of course, a fundamental property of equality is that it is an equivalence relat
     #check eq.symm    -- ?M_2 = ?M_3 → ?M_3 = ?M_2
     #check eq.trans   -- ?M_2 = ?M_3 → ?M_3 = ?M_4 → ?M_2 = ?M_4
 
-We can make the output easier to read by telling Lean not to the insert implicit arguments (which are displayed here as metavariables).
+We can make the output easier to read by telling Lean not to insert implicit arguments (which are displayed here as metavariables).
 
 .. code-block:: lean
 
